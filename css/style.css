@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+/*font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+body{font-family: 'Open Sans', sans-serif;}
+.banner{width:100%; height:auto; margin:0 auto; z-index:9998; position:relative; overflow:hidden; left:0px !important;}
+.banner img{width: 100% !important; height:auto; margin:0; padding:0; border:0; left:0; right:0; top:0 bottom:0;}
+.menu{position:absolute; width:100%; padding:45px 0;}
+h1.logo{margin:0; padding:0;}
+.navbar{margin-bottom: 0px; border:none; overflow:hidden;}
+.navbar-brand{margin:0px 0 0 37px !important; padding:0 !important;}
+.navbar-right{margin:0px 30px 0 0;}
+.nav>li>a{padding: 10px 20px; color:#FFF; text-transform:uppercase; font-family: 'Lato', sans-serif;}
+.nav>li:hover{background-color:transparent; border-bottom:3px solid #a2ca28;}
+.nav>li>a.active{background-color:transparent; border-bottom:3px solid #a2ca28;}
+.nav>li>a.active:hover{border:none;}
+.nav>li>a:hover{background-color:transparent;}
+#busca{position:relative; float:right; margin-right:60px;}
+#busca input::placeholder{color:#FFF;}
+.field-busca{background:none; border:2px solid #FFF; border-radius:10px; color:#fff; padding:0 5px;}
+input[type="submit"].btn-busca{content:"\f002"; font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif; background:none; border:none; color:#FFF; font-size:18px;}
+
+.banner-footer{width:100%; height:auto; margin:0 auto; z-index:9998; position:relative; overflow:hidden; left:0px !important;}
+.banner-footer img{width: 100% !important; height:auto; margin:0; padding:0; border:0; left:0; right:0; top:0 bottom:0;}
+.text-footer{position:absolute; text-align:center; color:#FFF; width:100%; margin:0 auto; top:30%;}
+.text-footer p{max-width:480px; margin:0 auto;}
+
+.clear{clear:left;}
+
+.footer{background-color:#0d1119; padding-top:65px;}
+.footer-sec{color:#FFF; margin-bottom:30px;}
+.footer-sec p{color:#8297a7; font-size:14px; line-height:24px;}
+.footer-sec h3{font-size:15px; margin-bottom:20px;}
+.social{list-style:none; padding:0; margin:0; display:inline-block;}
+.social li{margin-right:15px; float:left;}
+.fb-ico{background-color:#2e3192; color:#fff; border-radius:30px; height:50px; width:50px; line-height:50px; text-align:center; font-size:20px; padding-top:18px;}
+.tw-ico{background-color:#00aeef; color:#fff; border-radius:30px; height:50px; width:50px; line-height:50px; text-align:center; font-size:20px; padding-top:18px;}
+.yt-ico{background-color:#ed3123; color:#fff; border-radius:30px; height:50px; width:50px; line-height:50px; text-align:center; font-size:20px; padding-top:18px;}
+.in-ico{background-color:#171a8f; color:#fff; border-radius:30px; height:50px; width:50px; line-height:50px; text-align:center; font-size:20px; padding-top:18px;}
+input[type="submit"].btn-news{content:"\f138"; font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif; background:#a2ca28; border:none; color:#FFF; font-size:12px; width:100%; height:49px; border-radius:3px;}
+input[type="text"].field-news{background:#fff; border:none; color:#83969f; font-size:12px; width:100%; height:49px; border-radius:3px; text-align:left; padding-left:20px;}
+#form-news input::placeholder{color:#83969f;}
+#form-news .col-md-3, #form-news .col-md-4, #form-news .col-md-5{padding:0 5px 5px 0;}
+.fim{margin:30px auto 10px auto; text-align:center; color:#FFF; font-size:10px;}
+.fim a{color:#a2ca28;}
+
+.verde{background-color:#a2ca28; min-height:311px !important;}
+.verde img{width:100%;}
+
+.vermelho{background-color:#fd634e; min-height:311px !important;}
+.vermelho img{width:100%; max-height:323px;}
+
+.branco{background-color:#fff; min-height:311px !important;}
+
+.verde .col-lg-1, .verde .col-lg-10, .verde .col-lg-11, .verde .col-lg-12, .verde .col-lg-2, .verde .col-lg-3, .verde .col-lg-4, .verde .col-lg-5, .verde .col-lg-6, .verde .col-lg-7, .verde .col-lg-8, .verde .col-lg-9, .verde .col-md-1, .verde .col-md-10, .verde .col-md-11, .verde .col-md-12, .verde .col-md-2, .verde .col-md-3, .verde .col-md-4, .verde .col-md-5, .verde .col-md-6, .verde .col-md-7, .verde .col-md-8, .verde .col-md-9, .verde .col-sm-1, .verde .col-sm-10, .verde .col-sm-11, .verde .col-sm-12, .verde .col-sm-2, .verde .col-sm-3, .verde .col-sm-4, .verde .col-sm-5, .verde .col-sm-6, .verde .col-sm-7, .verde .col-sm-8, .verde .col-sm-9, .verde .col-xs-1, .verde .col-xs-10, .verde .col-xs-11, .verde .col-xs-12, .verde .col-xs-2, .verde .col-xs-3, .verde .col-xs-4, .verde .col-xs-5, .verde .col-xs-6, .verde .col-xs-7, .verde .col-xs-8, .verde .col-xs-9, .vermelho .col-lg-1, .vermelho .col-lg-10, .vermelho .col-lg-11, .vermelho .col-lg-12, .vermelho .col-lg-2, .vermelho .col-lg-3, .vermelho .col-lg-4, .vermelho .col-lg-5, .vermelho .col-lg-6, .vermelho .col-lg-7, .vermelho .col-lg-8, .vermelho .col-lg-9, .vermelho .col-md-1, .vermelho .col-md-10, .vermelho .col-md-11, .vermelho .col-md-12, .vermelho .col-md-2, .vermelho .col-md-3, .vermelho .col-md-4, .vermelho .col-md-5, .vermelho .col-md-6, .vermelho .col-md-7, .vermelho .col-md-8, .vermelho .col-md-9, .vermelho .col-sm-1, .vermelho .col-sm-10, .vermelho .col-sm-11, .vermelho .col-sm-12, .vermelho .col-sm-2, .vermelho .col-sm-3, .vermelho .col-sm-4, .vermelho .col-sm-5, .vermelho .col-sm-6, .vermelho .col-sm-7, .vermelho .col-sm-8, .vermelho .col-sm-9, .vermelho .col-xs-1, .vermelho .col-xs-10, .vermelho .col-xs-11, .vermelho .col-xs-12, .vermelho .col-xs-2, .vermelho .col-xs-3, .vermelho .col-xs-4, .vermelho .col-xs-5, .vermelho .col-xs-6, .vermelho .col-xs-7, .vermelho .col-xs-8, .vermelho .col-xs-9{padding:0 !important;}
+
+.bloco1{margin:55px 0px; color:#FFF;}
+.bloco1 img{float:left; clear:left; width:47px; height:44px;}
+.bloco1 h3{text-transform:capitalize; font-family: 'Open Sans', sans-serif; font-size:24px; margin:20px 0 30px 0; float:left; clear:left; width:100%;}
+.bloco1 p{font-size:14px; line-height:24px; font-family: 'Montserrat', sans-serif; float:left; clear:left; height:100px; margin-bottom:30px; max-width:90%; overflow:hidden;}
+.bloco1 a{font-size:14px; line-height:24px; font-family: 'Montserrat', sans-serif; color:#FFF; float:left; clear:left; margin-bottom:55px;}
+
+.fitness-first{text-align:center;}
+.fitness-first h4{margin:57px 0 15px 0; color:#fd634e; font-family: 'Montserrat', sans-serif; font-size:14px; text-transform:uppercase; font-weight:600;}
+.fitness-first h3{color:#a2ca28; font-family: 'Open Sans', sans-serif; font-size:35px; margin-bottom:25px; text-transform:uppercase;}
+.fitness-first img{width:15px; height:23px; margin:0 auto;}
+.fitness-first p{width:80%; font-size:14px; line-height:26px; margin:30px auto 0 auto;}
+.fitness-first a{color:#a2ca28; text-decoration:underline;}
+.users{position: absolute; bottom: 43px; right: 42px; color:#fd634e; line-height:31px; font-size:12px;}
+.users span{color:#FFF;}
+.users img{float:right; width:19px; height:31px; margin-left:10px;}
+
+.your-body{text-align:center;}
+.your-body h4{margin:57px 0 15px 0; color:#fd634e; font-family: 'Montserrat', sans-serif; font-size:14px; text-transform:uppercase; font-weight:600;}
+.your-body h3{color:#a2ca28; font-family: 'Open Sans', sans-serif; font-size:35px; margin-bottom:25px; text-transform:uppercase;}
+.your-body img{width:15px; height:23px; margin:0 auto;}
+.your-body p{width:80%; font-size:14px; line-height:26px; margin:30px auto 0 auto;}
+.your-body a{color:#a2ca28; text-decoration:underline;}
+.products{position: absolute; bottom: 43px; left: 42px; color:#fff; line-height:31px; font-size:12px;}
+.products span{color:#FFF;}
+.products img{float:right; width:19px; height:31px; margin-left:10px;}
+
+.life-style{text-align:left; padding:52px 0 0 40px; min-height:311px;}
+.life-style h4{margin:5px 0 15px 0; color:#fd634e; font-family: 'Montserrat', sans-serif; font-size:14px; text-transform:uppercase; font-weight:600;}
+.life-style h3{color:#a2ca28; font-family: 'Open Sans', sans-serif; font-size:35px; margin-bottom:25px; text-transform:uppercase;}
+.life-style img{width:32px; height:32px; margin:0px 30px 0 0; float:right;}
+.life-style p{font-size:14px; line-height:26px; margin:30px auto 0 auto;}
+
+.summer{text-align:left; padding:52px 107px 0 62px; min-height:311px;}
+.summer h3{color:#fff; font-family: 'Open Sans', sans-serif; font-size:40px; font-weight:lighter; margin:0 0 30px 0px; text-transform:uppercase;}
+.summer p{font-size:13px; line-height:21px; margin:0px auto; color:#fff;}
+.date{position: absolute; top: 43px; left: 42px; color:#fff; line-height:19px; font-size:12px; text-transform:uppercase;  font-weight:600;}
+.health{position: absolute; top: 43px; right: 42px; color:#fff; line-height:19px; font-size:12px; text-transform:uppercase; font-weight:600;}
+.health img{float:right; width:19px; height:19px; margin-left:10px;}
+
+.involved{text-align:left; padding:52px 0 0 40px; min-height:311px;}
+.involved h4{margin:5px 0 15px 0; color:#fd634e; font-family: 'Montserrat', sans-serif; font-size:14px; text-transform:uppercase; font-weight:600;}
+.involved h3{color:#a2ca28; font-family: 'Open Sans', sans-serif; font-size:35px; margin-bottom:25px; text-transform:uppercase;}
+.involved img{width:32px; height:38px; margin:0px 30px 0 0; float:right;}
+.involved p{font-size:14px; line-height:26px; margin:30px auto 0 auto; width:90%; float:left;}
+
+.habits{text-align:left; padding:52px 0 0 40px; min-height:311px;}
+.habits h4{margin:5px 0 15px 0; color:#fff; font-family: 'Montserrat', sans-serif; font-size:14px; text-transform:uppercase; font-weight:600;}
+.habits h3{color:#fff; font-family: 'Open Sans', sans-serif; font-size:35px; margin-bottom:25px; text-transform:uppercase;}
+.habits img{width:26px; height:38px; margin:0px 30px 0 0; float:right;}
+.habits p{font-size:14px; line-height:26px; margin:30px auto 0 auto; color:#fff; width:85%; float:left;}
+
+.internas{text-align:justify; line-height:25px; padding-bottom:60px;}
+.internas h2{border-bottom:3px solid #a2ca28; margin-bottom:30px;}
+
+input[type="submit"].btn-send{content:"\f138"; font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif; background:#a2ca28; border:none; color:#FFF; font-size:12px; width:20%; height:49px; border-radius:3px;}
+input[type="text"].field{background:#fff; border:2px solid #a2ca28; color:#83969f; font-size:12px; width:40%; height:49px; border-radius:3px; text-align:left; padding-left:20px;}
+textarea.field{background:#fff; border:2px solid #a2ca28; color:#83969f; font-size:12px; width:40%; height:200px; border-radius:3px; text-align:left; padding-left:20px;}
+#form-fale input::placeholder{color:#83969f;}
+
+
+@media only screen and (max-width:767px){
+.menu{position:absolute; width:100%; padding:5px 0;}
+.nav>li:hover{background-color:#a2ca28 !important; border-bottom:none !important;}
+input[type="submit"].btn-send{width:60%;}
+input[type="text"].field{width:100%;}
+textarea.field{width:100%;}
+}
